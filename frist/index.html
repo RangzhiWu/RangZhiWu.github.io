@@ -3,15 +3,19 @@
 <head>
     <meta charset="utf-8">
     
-    <title>RangZhiWu</title>
+    <title>frist | RangZhiWu</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
-    <meta property="og:type" content="website">
-<meta property="og:title" content="RangZhiWu">
-<meta property="og:url" content="http://yoursite.com/index.html">
+    <meta name="description" content="这里什么都没哟">
+<meta property="og:type" content="website">
+<meta property="og:title" content="frist">
+<meta property="og:url" content="http://yoursite.com/frist/index.html">
 <meta property="og:site_name" content="RangZhiWu">
+<meta property="og:description" content="这里什么都没哟">
 <meta property="og:locale" content="zh">
+<meta property="og:updated_time" content="2018-08-31T10:06:30.559Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="RangZhiWu">
+<meta name="twitter:title" content="frist">
+<meta name="twitter:description" content="这里什么都没哟">
     
 
     
@@ -208,38 +212,18 @@
 </aside>
 
             
-            <section id="main">
-    <article id="post-webpack安装笔记" class="article article-type-post" itemscope itemprop="blogPost">
+            <section id="main"><article id="page-" class="article article-type-page" itemscope itemprop="blogPost">
     <div class="article-inner">
         
         
             <header class="article-header">
                 
     
-        <h1 itemprop="name">
-            <a class="article-title" href="/2018/08/31/webpack安装笔记/">webpack安装笔记</a>
+        <h1 class="article-title" itemprop="name">
+            frist
         </h1>
     
 
-                
-                    <div class="article-meta">
-                        
-    <div class="article-date">
-        <i class="fas fa-calendar-alt"></i>
-        <a href="/2018/08/31/webpack安装笔记/">
-            <time datetime="2018-08-31T08:13:44.000Z" itemprop="datePublished">2018-08-31</time>
-        </a>
-    </div>
-
-
-                        
-                        
-    <div class="article-tag">
-        <i class="fas fa-tag"></i>
-        <a class="tag-link" href="/tags/webpack/">webpack</a>
-    </div>
-
-                    </div>
                 
             </header>
         
@@ -247,11 +231,7 @@
         <div class="article-entry" itemprop="articleBody">
         
             
-            <h3 id="webpack-最新版4-6"><a href="#webpack-最新版4-6" class="headerlink" title="webpack 最新版4.6"></a>webpack 最新版4.6</h3><h2 id="4-6-gt-5版本-0配置"><a href="#4-6-gt-5版本-0配置" class="headerlink" title="4.6 -&gt;5版本 0配置"></a>4.6 -&gt;5版本 0配置</h2><h3 id="首先初始化一个项目"><a href="#首先初始化一个项目" class="headerlink" title="首先初始化一个项目"></a>首先初始化一个项目</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">需求node版本 8以上</span><br><span class="line">-  初始化命令 npm init -y</span><br><span class="line">-  全局安装 npm intsall webpack -g</span><br><span class="line">-  本地安装</span><br><span class="line">-  npm intall webpack webpack-cli -D</span><br><span class="line">-  线上安装发布时不需要</span><br></pre></td></tr></table></figure>
-<h2 id="允许直接运行webpack"><a href="#允许直接运行webpack" class="headerlink" title="允许直接运行webpack"></a>允许直接运行webpack</h2><p>会执行node_moudeles对应bin下的webpack.cmd</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">npx webpack</span><br><span class="line">这个命令会将文件打包输出</span><br></pre></td></tr></table></figure>
-<h2 id="webpack-配置"><a href="#webpack-配置" class="headerlink" title="webpack 配置"></a>webpack 配置</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line">let path = require(&apos;path&apos;)</span><br><span class="line">module.exports =&#123;</span><br><span class="line"></span><br><span class="line">    entry: &apos;./src/index.js&apos; ,//入口</span><br><span class="line">    output: &#123;</span><br><span class="line">        filename:&apos;build.js&apos;, //设置文件名</span><br><span class="line">        //这个路径一定是绝对路径</span><br><span class="line">        path : path.resolve(&apos;./build&apos;) //打包出的文件夹</span><br><span class="line">    &#125; ,//出口</span><br><span class="line">    devServer: &#123;&#125;, //开发服务器</span><br><span class="line">    module : &#123;&#125;,//模块配置</span><br><span class="line">    plugins:[],//插件的配置</span><br><span class="line">    mode:&apos;development&apos;, //可以更改模式</span><br><span class="line">    resolve : &#123;&#125; // 配置解析</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
+            <h3 id="这里什么都没哟"><a href="#这里什么都没哟" class="headerlink" title="这里什么都没哟"></a>这里什么都没哟</h3>
         
         </div>
         <footer class="article-footer">
@@ -261,7 +241,7 @@
 
 </div>
 
-    <a data-url="http://yoursite.com/2018/08/31/webpack安装笔记/" data-id="cjlhu34av0000neoy43hco3w0" class="article-share-link"><i class="fas fa-share"></i>Share</a>
+    <a data-url="http://yoursite.com/frist/index.html" data-id="cjlhu34bj0001neoyb6b6boda" class="article-share-link"><i class="fas fa-share"></i>Share</a>
 <script>
     (function ($) {
         // Prevent duplicate binding
@@ -333,128 +313,14 @@
         </footer>
     </div>
     
-</article>
-
-
-
-    <article id="post-记录安装成功" class="article article-type-post" itemscope itemprop="blogPost">
-    <div class="article-inner">
         
-        
-            <header class="article-header">
-                
-    
-        <h1 itemprop="name">
-            <a class="article-title" href="/2018/08/27/记录安装成功/">记录安装成功</a>
-        </h1>
-    
 
-                
-                    <div class="article-meta">
-                        
-    <div class="article-date">
-        <i class="fas fa-calendar-alt"></i>
-        <a href="/2018/08/27/记录安装成功/">
-            <time datetime="2018-08-27T13:05:49.000Z" itemprop="datePublished">2018-08-27</time>
-        </a>
-    </div>
-
-
-                        
-                        
-                    </div>
-                
-            </header>
-        
-        
-        <div class="article-entry" itemprop="articleBody">
-        
-            
-            <p>hello word !</p>
-
-        
-        </div>
-        <footer class="article-footer">
-            <div class="share-container">
-
-
-
-</div>
-
-    <a data-url="http://yoursite.com/2018/08/27/记录安装成功/" data-id="cjlhu34bl0002neoyvfnaquov" class="article-share-link"><i class="fas fa-share"></i>Share</a>
-<script>
-    (function ($) {
-        // Prevent duplicate binding
-        if (typeof(__SHARE_BUTTON_BINDED__) === 'undefined' || !__SHARE_BUTTON_BINDED__) {
-            __SHARE_BUTTON_BINDED__ = true;
-        } else {
-            return;
-        }
-        $('body').on('click', function() {
-            $('.article-share-box.on').removeClass('on');
-        }).on('click', '.article-share-link', function(e) {
-            e.stopPropagation();
-
-            var $this = $(this),
-                url = $this.attr('data-url'),
-                encodedUrl = encodeURIComponent(url),
-                id = 'article-share-box-' + $this.attr('data-id'),
-                offset = $this.offset(),
-                box;
-
-            if ($('#' + id).length) {
-                box = $('#' + id);
-
-                if (box.hasClass('on')){
-                    box.removeClass('on');
-                    return;
-                }
-            } else {
-                var html = [
-                    '<div id="' + id + '" class="article-share-box">',
-                        '<input class="article-share-input" value="' + url + '">',
-                        '<div class="article-share-links">',
-                            '<a href="https://twitter.com/intent/tweet?url=' + encodedUrl + '" class="fab fa-twitter article-share-twitter" target="_blank" title="Twitter"></a>',
-                            '<a href="https://www.facebook.com/sharer.php?u=' + encodedUrl + '" class="fab fa-facebook article-share-facebook" target="_blank" title="Facebook"></a>',
-                            '<a href="http://pinterest.com/pin/create/button/?url=' + encodedUrl + '" class="fab fa-pinterest article-share-pinterest" target="_blank" title="Pinterest"></a>',
-                            '<a href="https://plus.google.com/share?url=' + encodedUrl + '" class="fab fa-google article-share-google" target="_blank" title="Google+"></a>',
-                        '</div>',
-                    '</div>'
-                ].join('');
-
-              box = $(html);
-
-              $('body').append(box);
-            }
-
-            $('.article-share-box.on').hide();
-
-            box.css({
-                top: offset.top + 25,
-                left: offset.left
-            }).addClass('on');
-
-        }).on('click', '.article-share-box', function (e) {
-            e.stopPropagation();
-        }).on('click', '.article-share-box-input', function () {
-            $(this).select();
-        }).on('click', '.article-share-box-link', function (e) {
-            e.preventDefault();
-            e.stopPropagation();
-
-            window.open(this.href, 'article-share-box-window-' + Date.now(), 'width=500,height=450');
-        });
-    })(jQuery);
-</script>
-
-            
-    
-
-        </footer>
-    </div>
     
 </article>
 
+
+    
+    
 
 </section>
             
